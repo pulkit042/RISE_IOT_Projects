@@ -39,7 +39,7 @@ This Arduino-based project monitors the water level in a tank using an **ultraso
 
 ![Circuit Diagram](images/ckt.png)
 
- 💡 Tip: You can simulate and test this project using [Wokwi Arduino Simulator]([https://wokwi.com](https://wokwi.com/projects/433375135102663681))
+ > 💡 Tip: You can simulate and test this project using [Wokwi Arduino Simulator]([https://wokwi.com](https://wokwi.com/projects/433375135102663681))
 
 ---
 
