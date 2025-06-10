@@ -19,8 +19,6 @@ This repository will serve as a central hub for all my project code, simulations
 | 7   | Health Monitoring System for Elderly   | ✅ Completed | -                        |
 | 8   | Garbage Level Monitoring System        | ✅ Completed | -                        |
 
-> ✅ = Completed | ⏳ = In Progress | 🚧 = Planned
-
 ---
 
 ---
