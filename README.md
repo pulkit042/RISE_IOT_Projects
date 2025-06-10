@@ -10,7 +10,7 @@ This repository will serve as a central hub for all my project code, simulations
 
 | No. | Project Title                          | Status       | Link                     |
 |-----|----------------------------------------|--------------|--------------------------|
-| 1   | Smart Water Level Indicator            | ✅ Completed | [View Project](./01_Smart_Water_Level_Indicator) |
+| 1   | Smart Water Level Indicator            | ✅ Completed | [View Project](./Project_1:Smart Water Level Indicator) |
 | 2   | TBD                                     | ⏳ Coming Soon | -                        |
 | 3   | TBD                                     | ⏳ Coming Soon | -                        |
 | 4   | TBD                                     | ⏳ Coming Soon | -                        |
