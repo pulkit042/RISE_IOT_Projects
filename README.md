@@ -50,7 +50,7 @@ This repository is open-source under the **MIT License**. You’re welcome to ex
 
 ## 🙌 Acknowledgments
 
-Thanks to the mentors and coordinators of the **RISE Internship 2025** for this opportunity to work on real-world IoT challenges and build my engineering profile.
+Thanks to the mentors and coordinators of the **Tamizhan Skils** for this opportunity to work on real-world IoT challenges and build my engineering profile.
 
 ---
 
