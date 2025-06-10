@@ -11,13 +11,13 @@ This repository will serve as a central hub for all my project code, simulations
 | No. | Project Title                          | Status       | Link                     |
 |-----|----------------------------------------|--------------|--------------------------|
 | 1   | Smart Water Level Indicator            | ✅ Completed | [View Project](./Project_1:Smart Water Level Indicator) |
-| 2   | TBD                                     | ⏳ Coming Soon | -                        |
-| 3   | TBD                                     | ⏳ Coming Soon | -                        |
-| 4   | TBD                                     | ⏳ Coming Soon | -                        |
-| 5   | TBD                                     | ⏳ Coming Soon | -                        |
-| 6   | TBD                                     | ⏳ Coming Soon | -                        |
-| 7   | TBD                                     | ⏳ Coming Soon | -                        |
-| 8   | TBD                                     | ⏳ Coming Soon | -                        |
+| 2   | IoT-Based Smart Agriculture Monitoring | ✅ Completed | -                        |
+| 3   | Home Automation Using NodeMCU & Blynk  | ✅ Completed | -                        |
+| 4   | IoT-Based Fire Detection System        | ✅ Completed | -                        |
+| 5   | Smart Parking System                   | ✅ Completed | -                        |
+| 6   | Automatic Door Opener with Face Detection |✅ Completed | -                      |
+| 7   | Health Monitoring System for Elderly   | ✅ Completed | -                        |
+| 8   | Garbage Level Monitoring System        | ✅ Completed | -                        |
 
 > ✅ = Completed | ⏳ = In Progress | 🚧 = Planned
 
