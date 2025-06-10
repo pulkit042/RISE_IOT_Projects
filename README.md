@@ -54,6 +54,6 @@ Thanks to the mentors and coordinators of the **Tamizhan Skils** for this opport
 
 ---
 
-**⭐ If you find any project helpful, don’t forget to star this repo!**
+
 
 
