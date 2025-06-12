@@ -69,7 +69,7 @@ void loop() {
     tone(BUZZER_PIN, 1000);
     digitalWrite(RED_LED_PIN, HIGH);
     digitalWrite(GREEN_LED_PIN, LOW);
-    Blynk.logEvent("fire_alert", "🔥 Fire or gas detected!");
+    Blynk.logEvent("fire_alert", "Fire or gas detected!");
   } 
   else {   // Safe state
     noTone(BUZZER_PIN);
