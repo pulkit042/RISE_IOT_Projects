@@ -1,3 +1,8 @@
+#define BLYNK_TEMPLATE_ID "YourTemplateID"
+#define BLYNK_DEVICE_NAME "Fire Detector"
+#define BLYNK_AUTH_TOKEN "YourAuthToken"
+
+#include <WiFi.h>
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 #include <DHT_U.h>
@@ -6,6 +11,10 @@
 #define DHTPIN 4
 #define DHTTYPE DHT22
 DHT dht(DHTPIN, DHTTYPE);
+
+// Wi-Fi credentials
+char ssid[] = "YourWiFiName";
+char pass[] = "YourWiFiPassword";
 
 // MQ-2 Gas Sensor (analog)
 #define MQ2_PIN 34  
@@ -31,6 +40,8 @@ void setup() {
   digitalWrite(BUZZER_PIN, LOW);
   digitalWrite(RED_LED_PIN, LOW);
   digitalWrite(GREEN_LED_PIN, HIGH);
+
+   Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass)
 }
 
 void loop() {
@@ -46,7 +57,6 @@ void loop() {
     return;
   }
 
-  // Debug print
   Serial.print("Temp: ");
   Serial.print(temperature);
   Serial.print(" °C | Humidity: ");
@@ -59,10 +69,16 @@ void loop() {
     tone(BUZZER_PIN, 1000);
     digitalWrite(RED_LED_PIN, HIGH);
     digitalWrite(GREEN_LED_PIN, LOW);
-  } else {
-    // Safe state
+    Blynk.logEvent("fire_alert", "🔥 Fire or gas detected!");
+  } 
+  else {   // Safe state
     noTone(BUZZER_PIN);
     digitalWrite(RED_LED_PIN, LOW);
     digitalWrite(GREEN_LED_PIN, HIGH);
   }
+  
+  Blynk.virtualWrite(V0, temp);  // Send temperature
+  Blynk.virtualWrite(V1, gas);   // Send gas level
+  delay(3000); //in every 3sec
+  
 }
