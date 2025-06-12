@@ -3,7 +3,7 @@
 This project is part of the **RISE Internship 2025** IoT series. It focuses on **real-time fire and gas detection** using an ESP32 board with **temperature and gas sensors**, and sends **instant push alerts to your mobile via Blynk IoT**.
 
 <div align="center">
-  <img src="./demo.gif" width="600" alt="Working Demo GIF">
+  <img src="./image/demo.gif" width="600" alt="Working Demo GIF">
 </div>
 
 ---
@@ -36,7 +36,7 @@ This project is part of the **RISE Internship 2025** IoT series. It focuses on *
 ## 🔗 Circuit Diagram
 
 <div align="center">
-  <img src="./ckt.png" width="600" alt="Circuit Diagram">
+  <img src="./image/ckt.png" width="600" alt="Circuit Diagram">
 </div>
 
 ---
@@ -46,7 +46,7 @@ This project is part of the **RISE Internship 2025** IoT series. It focuses on *
 Whenever gas or fire is detected, a mobile notification is instantly sent via the **Blynk app**:
 
 <div align="center">
-  <img src="./alert.png" width="300" alt="Blynk Notification Screenshot">
+  <img src="./image/alert.png" width="300" alt="Blynk Notification Screenshot">
 </div>
 
 ---
