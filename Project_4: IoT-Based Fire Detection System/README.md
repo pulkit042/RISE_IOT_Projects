@@ -57,7 +57,7 @@ Whenever gas or fire is detected, a mobile notification is instantly sent via th
 2. The **MQ-2 sensor** reads gas levels (e.g., smoke or LPG).
 3. If either:
    - Temperature ≥ **50°C**
-   - Gas level ≥ **1000**
+   - Gas level ≥ **3650** >|| 440ppm||
    
    ➜ It triggers a **red LED**, **buzzer**, and a **Blynk push notification**.
 
