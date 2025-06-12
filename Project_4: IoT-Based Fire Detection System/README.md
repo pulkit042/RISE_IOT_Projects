@@ -113,5 +113,10 @@ Easy to set up, real-time notifications ensure that you're always informed in ca
 
 ---
 
-## 📁 Project Structure
+## 📌 Applications
+
+- 🔥 Smart fire alarms
+- 🏭 Industrial gas leak detection
+- 🏠 Home safety and security automation
+
 
