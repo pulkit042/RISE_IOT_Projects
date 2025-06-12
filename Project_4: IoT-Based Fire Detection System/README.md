@@ -1,6 +1,6 @@
 # 🔥 IoT-Based Fire Detection System (ESP32 + DHT22 + MQ-2 + Blynk)
 
-This project is part of the **RISE Internship 2025** IoT series. It focuses on **real-time fire and gas detection** using an ESP32 board with **temperature and gas sensors**, and sends **instant push alerts to your mobile via Blynk IoT**.
+This project focuses on **real-time fire and gas detection** using an ESP32 board with **temperature and gas sensors**, and sends **instant push alerts to your mobile via Blynk IoT**.
 
 <div align="center">
   <img src="./image/demo.gif" width="600" alt="Working Demo GIF">
