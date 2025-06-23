@@ -1,27 +1,27 @@
-# 💧 Smart Water Level Indicator 🚰
+# Smart Water Level Indicator 
 
 This Arduino-based project monitors the water level in a tank using an **ultrasonic sensor (HC-SR04)** and displays the level on an **I2C 16x2 LCD** in **centimeters**. It uses a **LED bar graph** to indicate water level visually and activates a **buzzer alert** when the tank is near full (within 4 cm). The tank height is configurable and currently set to **400 cm**.
 
 ---
 
-## 🎬 Demo
+## Demo
 
 ![Smart Water Level Indicator Demo](images/demo1.gif)
 
 ---
 
-## 🔧 Features
+## Features
 
-- 🧪 Accurate water level measurement using ultrasonic sensor
-- 📟 16x2 LCD shows level in cm and progress bar
-- 🔋 LED bar graph shows water fill level visually
-- 🚨 Buzzer rings when water level is within 4 cm of full tank
-- 📏 Customizable tank height (set to 400 cm)
-- ⚡ Built on Arduino Uno
+- Accurate water level measurement using ultrasonic sensor
+- 16x2 LCD shows level in cm and progress bar
+- LED bar graph shows water fill level visually
+- Buzzer rings when water level is within 4 cm of full tank
+- Customizable tank height (set to 400 cm)
+- Built on Arduino Uno
 
 ---
 
-## 🧠 Components Used
+## Components Used
 
 | Component            | Quantity |
 |----------------------|----------|
@@ -35,13 +35,13 @@ This Arduino-based project monitors the water level in a tank using an **ultraso
 
 ---
 
-## 🔌 Circuit Diagram
+## Circuit Diagram
 
 ![Circuit Diagram](images/ckt.png)
 
 ---
 
-## 🖥️ How It Works
+## How It Works
 
 1. The **HC-SR04** measures the distance between the sensor and the water surface.
 2. Water level = `tank height - measured distance`.
@@ -51,7 +51,7 @@ This Arduino-based project monitors the water level in a tank using an **ultraso
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Upload the Code
 
@@ -77,20 +77,20 @@ This Arduino-based project monitors the water level in a tank using an **ultraso
 
 ---
 
-## ✅ Future Improvements
+## Future Improvements
 
-- 🛜 Add IoT support (e.g., Blynk, ESP8266)
-- 📱 Mobile app notification
-- 🧠 Automatic pump control with relay
+- Add IoT support (e.g., Blynk, ESP8266)
+- Mobile app notification
+- Automatic pump control with relay
 
 ---
 
-## 📜 License
+## License
 
 MIT License – you are free to use, modify, and share this project.
 
 ---
 
-**🌟 If you liked this project, don't forget to star the repo!**
+**If you liked this project, don't forget to star the repo!**
 
 ---
