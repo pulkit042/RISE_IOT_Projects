@@ -1,30 +1,30 @@
-# 🚀 IoT-Based Smart Monitoring using Arduino UNO + ESP8266
+# IoT-Based Smart Monitoring using Arduino UNO + ESP8266
 
 This project demonstrates how to send real-time sensor data of garbage level from an **Arduino Uno** to the **Blynk mobile app** using an **ESP8266 (ESP-01)** module. It’s part of the **RISE Internship 2025 IoT Projects**.
 
 ---
 
-## 📷 Project Demo
+## Project Demo
 
 ![demo](./images/demo.gif)
 
 ---
 
-## 🔌 Circuit Diagram
+## Circuit Diagram
 
 ![circuit](./images/ckt.png)
 
-> 🔧 Make sure to use a **3.3V regulator** like **AMS1117** for powering the ESP8266, and a **voltage divider** (e.g., 2kΩ/1kΩ) on the TX pin of the Arduino to protect the RX pin of the ESP.
+> Make sure to use a **3.3V regulator** like **AMS1117** for powering the ESP8266, and a **voltage divider** (e.g., 2kΩ/1kΩ) on the TX pin of the Arduino to protect the RX pin of the ESP.
 
 ---
 
-## 📱 Blynk App Dashboard
+## Blynk App Dashboard
 
 ![blynk_dashboard](./images/blynk.png)
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. **Arduino Uno** reads data from a sensor (e.g., ultrasonic for level detection).
 2. Sends this data via **SoftwareSerial** to the **ESP8266** module.
@@ -36,7 +36,7 @@ This project demonstrates how to send real-time sensor data of garbage level fro
 
 ---
 
-## 🧰 Hardware Components
+## Hardware Components
 
 | Component       | Quantity | Description                       |
 |----------------|----------|------------------------------------|
@@ -50,7 +50,7 @@ This project demonstrates how to send real-time sensor data of garbage level fro
 
 ---
 
-## 🔗 Pin Connections
+## Pin Connections
 
 ### ESP8266 ↔ Arduino Uno
 
@@ -64,7 +64,7 @@ This project demonstrates how to send real-time sensor data of garbage level fro
 
 ---
 
-## 🚀 Features
+## Features
 
 - Real-time monitoring via mobile along with the LCD screen
 - Modular codebase: separate Uno and ESP logic
@@ -74,7 +74,7 @@ This project demonstrates how to send real-time sensor data of garbage level fro
 
 ---
 
-## 🧠 Future Improvements
+## Future Improvements
 
 - Replace ESP-01 with **NodeMCU** or **ESP32** for simplicity
 - Add more sensors (smoke, flame, gas)
