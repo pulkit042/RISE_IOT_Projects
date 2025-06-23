@@ -4,7 +4,7 @@ This project demonstrates how to send real-time sensor data of garbage level fro
 
 ---
 
-## Project Demo
+## Project Demo GIF
 
 ![demo](./images/demo.gif)
 
