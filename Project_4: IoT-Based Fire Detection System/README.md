@@ -2,6 +2,10 @@
 
 This project focuses on **real-time fire and gas detection** using an ESP32 board with **temperature and gas sensors**, and sends **instant push alerts to your mobile via Blynk IoT**.
 
+---
+
+## Project Demo GIF
+
 <div align="center">
   <img src="./image/demo.gif" width="600" alt="Working Demo GIF">
 </div>
