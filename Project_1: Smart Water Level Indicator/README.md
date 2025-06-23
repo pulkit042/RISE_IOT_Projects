@@ -4,7 +4,7 @@ This Arduino-based project monitors the water level in a tank using an **ultraso
 
 ---
 
-## Demo
+## Project Demo GIF
 
 ![Smart Water Level Indicator Demo](images/demo1.gif)
 
