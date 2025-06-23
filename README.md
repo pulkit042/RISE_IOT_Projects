@@ -1,4 +1,4 @@
-# 🌐 RISE Internship 2025 – IoT Projects Repository
+# RISE Internship 2025 – IoT Projects Repository
 
 Welcome to my official project repository for the **RISE Internship 2025**. During this internship, I will be working on a total of **8 IoT-based projects**, each focusing on real-world applications using embedded systems, sensors, and wireless communication.
 
@@ -6,7 +6,7 @@ This repository will serve as a central hub for all my project code, simulations
 
 ---
 
-## 📌 Project List
+## Project List
 
 | No. | Project Title                          | Status       |
 |-----|----------------------------------------|--------------|
@@ -23,17 +23,17 @@ This repository will serve as a central hub for all my project code, simulations
 
 ---
 
-## 🔧 Tools & Platforms
+## Tools & Platforms
 
-- 🧠 **Arduino UNO / ESP8266 / ESP32**
-- 🌐 **Wokwi Simulator**
-- 📟 **Sensors (Ultrasonic, DHT, PIR, etc.)**
-- 📡 **IoT platforms: Blynk / ThingSpeak / MQTT**
-- 💻 **GitHub for version control and project tracking**
+- **Arduino UNO / ESP8266 / ESP32**
+- **Wokwi Simulator**
+- **Sensors (Ultrasonic, DHT, PIR, etc.)**
+- **IoT platforms: Blynk / ThingSpeak / MQTT**
+- **GitHub for version control and project tracking**
 
 ---
 
-## 🎯 Objective
+## Objective
 
 The aim of this internship is to:
 - Build practical skills in **IoT system design**
@@ -42,13 +42,13 @@ The aim of this internship is to:
 
 ---
 
-## 📝 License
+## License
 
 This repository is open-source under the **MIT License**. You’re welcome to explore and use the projects for learning or personal development.
 
 ---
 
-## 🙌 Acknowledgments
+## Acknowledgments
 
 Thanks to the mentors and coordinators of the **Tamizhan Skils** for this opportunity to work on real-world IoT challenges and build my engineering profile.
 
