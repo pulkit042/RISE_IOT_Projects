@@ -1,4 +1,4 @@
-# 🔥 IoT-Based Fire Detection System (ESP32 + DHT22 + MQ-2 + Blynk)
+# IoT-Based Fire Detection System (ESP32 + DHT22 + MQ-2 + Blynk)
 
 This project focuses on **real-time fire and gas detection** using an ESP32 board with **temperature and gas sensors**, and sends **instant push alerts to your mobile via Blynk IoT**.
 
@@ -8,18 +8,18 @@ This project focuses on **real-time fire and gas detection** using an ESP32 boar
 
 ---
 
-## 🚀 Features
+## Features
 
-✅ Real-time temperature and gas monitoring  
-✅ Automatic detection of fire or smoke using **DHT22** and **MQ-2**  
-✅ Visual alerts using **LEDs** and **Buzzer**  
-✅ Sends mobile push notifications using **Blynk Cloud**  
-✅ Fully compatible with ESP32 DevKit v4  
-✅ Simulated on Wokwi + can be deployed physically
+-- Real-time temperature and gas monitoring  
+-- Automatic detection of fire or smoke using **DHT22** and **MQ-2**  
+-- Visual alerts using **LEDs** and **Buzzer**  
+-- Sends mobile push notifications using **Blynk Cloud**  
+-- Fully compatible with ESP32 DevKit v4  
+-- Simulated on Wokwi + can be deployed physically
 
 ---
 
-## 📦 Components Used
+## Components Used
 
 | Component        | Description               |
 |------------------|---------------------------|
@@ -33,7 +33,7 @@ This project focuses on **real-time fire and gas detection** using an ESP32 boar
 
 ---
 
-## 🔗 Circuit Diagram
+## Circuit Diagram
 
 <div align="center">
   <img src="./image/ckt.png" width="600" alt="Circuit Diagram">
@@ -41,7 +41,7 @@ This project focuses on **real-time fire and gas detection** using an ESP32 boar
 
 ---
 
-## 📲 Mobile Notification Example
+## Mobile Notification Example
 
 Whenever gas or fire is detected, a mobile notification is instantly sent via the **Blynk app**:
 
@@ -51,7 +51,7 @@ Whenever gas or fire is detected, a mobile notification is instantly sent via th
 
 ---
 
-## 🧠 Working Principle
+## Working Principle
 
 1. The **DHT22** constantly measures the ambient **temperature**.
 2. The **MQ-2 sensor** reads gas levels (e.g., smoke or LPG).
@@ -67,7 +67,7 @@ Whenever gas or fire is detected, a mobile notification is instantly sent via th
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Wiring
 
@@ -95,7 +95,7 @@ Whenever gas or fire is detected, a mobile notification is instantly sent via th
 
 ---
 
-## 🧾 Code
+## Code
 
 Arduino code is available in `fire_detection.ino`.  
 Key logic includes:
@@ -106,17 +106,17 @@ Key logic includes:
 
 ---
 
-## 🌐 Cloud Integration
+## Cloud Integration
 
 This project uses **Blynk.Cloud** for mobile alerts.  
 Easy to set up, real-time notifications ensure that you're always informed in case of emergencies.
 
 ---
 
-## 📌 Applications
+## Applications
 
-- 🔥 Smart fire alarms
-- 🏭 Industrial gas leak detection
-- 🏠 Home safety and security automation
+- Smart fire alarms
+- Industrial gas leak detection
+- Home safety and security automation
 
 
