@@ -1,4 +1,8 @@
 #include <LiquidCrystal_I2C.h>
+#include <LiquidCrystal_I2C.h>
+#define BLYNK_PRINT Serial
+#include <ESP8266WiFi.h>
+#include <BlynkSimpleEsp8266.h>
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
@@ -13,6 +17,9 @@ void setup() {
   lcd.init();
   lcd.backlight();
 
+  Serial.begin(9600);
+  Blynk.begin(auth, ssid, pass);
+  
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   pinMode(buzzerPin, OUTPUT);
@@ -25,6 +32,22 @@ void setup() {
 }
 
 void loop() {
+
+  Blynk.run();
+
+  while (Serial.available()) {
+    char c = Serial.read();
+    if (c == '\n') {
+      if (incomingData.startsWith("SENSOR:")) {
+        sensorVal = incomingData.substring(7).toInt();
+        Blynk.virtualWrite(V0, sensorVal); // Send to Blynk
+      }
+      incomingData = "";
+    } else {
+      incomingData += c;
+    }
+  }
+  
   // Trigger ultrasonic pulse
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
