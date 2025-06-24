@@ -18,7 +18,7 @@ A compact and efficient health monitoring system for elderly individuals using E
 ## Circuit Diagram
 
 Refer to the `ckt.png` file: 
-![circuit](.images/ckt.png)
+![circuit](./images/ckt.png)
 
 * **Pulse Sensor** connected to `GPIO 36 (VP)`
 * **DHT22**:
@@ -70,7 +70,7 @@ Refer to the `ckt.png` file:
 ## Blynk Integration
 
 Refer to the `blynk.png` file :
-![dasboard](.images/blynk.png)
+![dasboard](./images/blynk.png)
 
 * **Dashboard Widgets**:
 
