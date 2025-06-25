@@ -28,7 +28,7 @@ This repository will serve as a central hub for all my project code, simulations
 - **Arduino UNO / ESP8266 / ESP32**
 - **Wokwi Simulator**
 - **Sensors (Ultrasonic, DHT, PIR, etc.)**
-- **IoT platforms: Blynk / ThingSpeak / MQTT**
+- **IoT platforms: Blynk**
 - **GitHub for version control and project tracking**
 
 ---
