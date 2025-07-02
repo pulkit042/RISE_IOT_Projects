@@ -1,4 +1,4 @@
-# 🏠 Smart Home Automation using ESP32 + Blynk + TFT Touch (Wokwi Simulated)
+# Smart Home Automation using ESP32 + Blynk + TFT Touch (Wokwi Simulated)
 
 Control home appliances **remotely via Blynk app** and simulate their local control using a **TFT touch screen interface** in **Wokwi**.
 
@@ -6,14 +6,14 @@ This project demonstrates how **IoT and embedded systems** can work together to 
 
 ---
 
-## 🎬 Demo
+## Demo
 
                     
 ![Simulation](./images/demo.gif)  
 
 ---
 
-## 🔌 Circuit Diagram
+## Circuit Diagram
 
 ![Circuit Diagram](./images/ckt.png)
 
@@ -25,16 +25,16 @@ This project demonstrates how **IoT and embedded systems** can work together to 
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
-- 💡 Control **Light** and **Fan** appliances.
-- 📲 Remotely turn ON/OFF appliances using **Blynk mobile app**.
-- 🖥 Simulate physical control using **TFT touchscreen** in [Wokwi](https://wokwi.com).
-- 🔁 Dual-mode: **Touch interface** for local control + **Blynk** for remote.
+- Control **Light** and **Fan** appliances.
+- Remotely turn ON/OFF appliances using **Blynk mobile app**.
+- Simulate physical control using **TFT touchscreen** in [Wokwi](https://wokwi.com).
+- Dual-mode: **Touch interface** for local control + **Blynk** for remote.
 
 ---
 
-## 🧰 Components Used
+## Components Used
 
 | Component             | Details                         |
 |-----------------------|----------------------------------|
@@ -46,14 +46,14 @@ This project demonstrates how **IoT and embedded systems** can work together to 
 
 ---
 
-## ⚙️ Working Principle
+## Working Principle
 
-- 👆 **Touchscreen Simulation (Wokwi):**
+- **Touchscreen Simulation (Wokwi):**
   - Four buttons appear on TFT display: `Light ON/OFF`, `Fan ON/OFF`.
   - Touching a button sends digital signal to corresponding output pin.
   - Simulates appliance switching locally.
 
-- 📱 **Blynk Remote Control (Real Scenario):**
+- **Blynk Remote Control (Real Scenario):**
   - Users can control Light and Fan via the Blynk mobile dashboard.
   - In real deployment, commands are received through internet using ESP32 WiFi.
   - ESP32 triggers GPIOs based on Blynk input to switch the appliances.
