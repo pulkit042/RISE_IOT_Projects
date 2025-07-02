@@ -9,19 +9,19 @@ This project demonstrates how **IoT and embedded systems** can work together to 
 ## 🎬 Demo
 
                     
-![Simulation](demo.gif)  
+![Simulation](./images/demo.gif)  
 
 ---
 
 ## 🔌 Circuit Diagram
 
-![Circuit Diagram](ckt.png)
+![Circuit Diagram](./images/ckt.png)
 
 ---
 
 ## Blynk Dashboard  
 
-![Blynk Dashboard](blynk.png) 
+![Blynk Dashboard](./images/blynk.png) 
 
 ---
 
