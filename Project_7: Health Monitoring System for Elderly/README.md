@@ -10,7 +10,6 @@ A compact and efficient health monitoring system for elderly individuals using E
 * Pulse Sensor (custom chip in Wokwi)
 * DHT22 Temperature & Humidity Sensor
 * MPU6050 Accelerometer
-* I2C 16x2 LCD Display
 * Blynk IoT Dashboard
 
 ---
@@ -31,11 +30,6 @@ A compact and efficient health monitoring system for elderly individuals using E
   * GND to `GND`
   * SDA to `GPIO 21`
   * SCL to `GPIO 22`
-* **I2C LCD**:
-
-  * SDA to `GPIO 21`
-  * SCL to `GPIO 22`
-  * VCC to `3.3V`, GND to `GND`
 
 ---
 
