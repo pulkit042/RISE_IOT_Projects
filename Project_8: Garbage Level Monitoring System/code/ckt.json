@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "author": "Pulkit Yadav",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-half", "id": "bb1", "top": -3, "left": 2.8, "attrs": {} },
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 394.2, "left": 57, "attrs": {} },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic1",
+      "top": 251.1,
+      "left": 91.9,
+      "attrs": { "distance": "62" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": 21.6,
+      "left": -103.8,
+      "attrs": { "volume": "0.1" }
+    },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -147.2,
+      "left": 101.6,
+      "attrs": { "pins": "i2c" }
+    },
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp1", "top": 398.3, "left": 388.6, "attrs": {} }
+  ],
+  "connections": [
+    [ "uno:5V", "bb1:bp.1", "red", [ "v28.7", "h-178.6" ] ],
+    [ "uno:GND.2", "bb1:tn.25", "black", [ "v28.7", "h138.3", "v-432" ] ],
+    [ "ultrasonic1:VCC", "bb1:bp.2", "red", [ "v0", "h-96" ] ],
+    [ "ultrasonic1:GND", "bb1:tn.24", "black", [ "v0", "h152.4", "v-316.8", "h-48" ] ],
+    [ "bz1:1", "bb1:tn.23", "black", [ "v9.6", "h-48", "v-86.4", "h412.8" ] ],
+    [ "ultrasonic1:TRIG", "uno:12", "cyan", [ "v38.4", "h18.8" ] ],
+    [ "ultrasonic1:ECHO", "uno:13", "cyan", [ "v0" ] ],
+    [ "lcd1:SDA", "bb1:6t.c", "green", [ "h0" ] ],
+    [ "bb1:6t.d", "uno:A4", "green", [ "v28.8", "h-105.6", "v518.4", "h336" ] ],
+    [ "lcd1:SCL", "bb1:5t.c", "green", [ "h-38.4", "v9.9" ] ],
+    [ "bb1:5t.d", "uno:A5", "green", [ "v19.2", "h-105.6", "v326.4", "h0", "v211.2", "h355.2" ] ],
+    [ "lcd1:GND", "bb1:tn.22", "black", [ "h-76.8", "v-76.8", "h403.2", "v192", "h-153.6" ] ],
+    [ "lcd1:VCC", "bb1:bp.3", "red", [ "h-124.8", "v-95.9", "h480", "v412.8", "h-403.2" ] ],
+    [ "bz1:2", "uno:A0", "green", [ "v537.6", "h335.6" ] ],
+    [ "bb1:15t.a", "bb1:16t.a", "black", [ "v0" ] ],
+    [ "bb1:16t.a", "bb1:17t.a", "black", [ "v0" ] ],
+    [ "bb1:17t.a", "bb1:18t.a", "black", [ "v0" ] ],
+    [ "bb1:18t.a", "bb1:19t.a", "black", [ "v0" ] ],
+    [ "bb1:19t.a", "bb1:20t.a", "black", [ "v0" ] ],
+    [ "bb1:20t.a", "bb1:21t.a", "black", [ "v0" ] ],
+    [ "bb1:21t.a", "bb1:22t.a", "black", [ "v0" ] ],
+    [ "bb1:22t.a", "bb1:23t.a", "black", [ "v0" ] ],
+    [ "bb1:23t.a", "bb1:24t.a", "black", [ "v0" ] ],
+    [ "bb1:24t.a", "bb1:tn.21", "black", [ "v0" ] ],
+    [ "esp1:VIN", "uno:3.3V", "red", [ "h-9.6", "v96", "h-182.4" ] ],
+    [ "esp1:GND.2", "uno:GND.3", "black", [ "h-48", "v124.7", "h-96" ] ],
+    [ "esp1:TX0", "uno:2", "green", [ "h9.3", "v-48.7", "h-201.6", "v-9.6" ] ],
+    [ "esp1:RX0", "uno:3", "green", [ "h18.9", "v-67.4", "h-220.8" ] ]
+  ],
+  "dependencies": {}
+}
