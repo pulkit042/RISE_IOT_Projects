@@ -6,7 +6,7 @@ This project demonstrates how **IoT and embedded systems** can work together to 
 
 ---
 
-## Demo
+## Demo GIF
 
                     
 ![Simulation](./images/demo.gif)  
