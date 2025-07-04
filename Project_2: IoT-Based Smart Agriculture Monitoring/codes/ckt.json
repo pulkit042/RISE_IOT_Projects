@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "author": "Pulkit",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 105.6, "left": 43.24, "attrs": {} },
+    {
+      "type": "chip-soil-moisture-sensor",
+      "id": "sen1",
+      "top": 154.62,
+      "left": -156.59,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 111.6,
+      "left": 176.6,
+      "attrs": { "color": "blue", "flip": "" }
+    },
+    { "type": "wokwi-dht22", "id": "dht1", "top": 57.9, "left": 301.8, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -89.6,
+      "left": -23.2,
+      "attrs": { "pins": "i2c" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:3V3", "sen1:VCC", "red", [ "h-23.81", "v79.78" ] ],
+    [ "esp:GND.1", "sen1:GND", "black", [ "h-23.81", "v-35.42" ] ],
+    [ "esp:34", "sen1:SIG", "yellow", [ "h-14.21", "v60.58" ] ],
+    [ "led1:C", "esp:GND.3", "green", [ "v0" ] ],
+    [ "led1:A", "esp:19", "green", [ "v0" ] ],
+    [ "dht1:SDA", "esp:14", "green", [ "v153.6", "h-287.9", "v-86.4" ] ],
+    [ "dht1:VCC", "esp:3V3", "red", [ "v38.4", "h-67.2", "v-144", "h-201.6" ] ],
+    [ "dht1:GND", "esp:GND.1", "black", [ "v163.2", "h-316.8", "v-76.8" ] ],
+    [ "lcd1:GND", "esp:GND.2", "black", [ "h-48", "v153.6", "h211.2" ] ],
+    [ "lcd1:VCC", "esp:3V3", "red", [ "h-67.2", "v172.9" ] ],
+    [ "lcd1:SDA", "esp:21", "green", [ "h-19.2", "v125", "h201.6", "v96" ] ],
+    [ "lcd1:SCL", "esp:22", "green", [ "h-19.2", "v115.5", "h192", "v67.2" ] ]
+  ],
+  "dependencies": {}
+}
