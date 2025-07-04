@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "Sittinon",
+  "author": "Pulkit",
   "editor": "wokwi",
   "parts": [
     { "type": "board-esp32-devkit-c-v4", "id": "esp1", "top": 64.71, "left": -263.5, "attrs": {} },
