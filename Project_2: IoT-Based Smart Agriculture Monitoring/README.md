@@ -1,4 +1,4 @@
-# Project 2: IoT-Based Smart Agriculture Monitoring
+# IoT-Based Smart Agriculture Monitoring
 
 ## Problem Statement
 Traditional agriculture practices often lack data-driven insights, leading to **inefficient irrigation** and **poor crop health**.
