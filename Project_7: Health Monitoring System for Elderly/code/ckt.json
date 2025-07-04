@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "author": "Pulkit",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-half", "id": "bb1", "top": -252.6, "left": -170, "attrs": {} },
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": -4.76, "attrs": {} },
+    { "type": "chip-pulse-sensor", "id": "chip1", "top": 164.22, "left": -168, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -18.9, "left": -178.2, "attrs": {} },
+    { "type": "wokwi-mpu6050", "id": "imu1", "top": 3.82, "left": -304.88, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "chip1:GND", "esp:GND.1", "black", [ "h-28.8", "h-76.8", "v-67.2" ] ],
+    [ "esp:5V", "chip1:VCC", "red", [ "h-244.61", "v28.8" ] ],
+    [ "chip1:OUT0", "esp:34", "cyan", [ "v0", "h21.01", "v-115.2" ] ],
+    [ "dht1:SDA", "esp:25", "green", [ "v19.2", "h144.1", "v-9.6" ] ],
+    [ "esp:GND.2", "bb1:bn.25", "black", [ "v-19.2", "h38.4", "v-67.2" ] ],
+    [ "dht1:GND", "bb1:bn.24", "black", [ "v0", "h86.4", "v-124.8", "h172.8" ] ],
+    [ "esp:3V3", "bb1:bp.1", "green", [ "h-105.45", "v-67.2", "h-38.4", "v-19.2" ] ],
+    [ "dht1:VCC", "bb1:bp.2", "red", [ "v9.6", "h-28.8", "v-182.4", "h57.6" ] ],
+    [ "imu1:VCC", "bb1:bp.3", "red", [ "v-86.4", "h115.28" ] ],
+    [ "imu1:GND", "bb1:bn.23", "black", [ "v-38.4", "h355.28" ] ],
+    [ "imu1:SCL", "esp:22", "green", [ "v-19.2", "h-67.12", "v230.4", "h441.6", "v-172.8" ] ],
+    [ "imu1:SDA", "esp:21", "green", [ "v-19.2", "h-57.52", "v230.4", "h441.6", "v-144" ] ]
+  ],
+  "dependencies": {}
+}
