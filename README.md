@@ -52,6 +52,5 @@ Thanks to the mentors and coordinators of the **Tamizhan Skils** for this opport
 
 ---
 
-[![HitCount](https://hits.dwyl.com/pulkit042/RISE_IOT_Projects.svg?style=flat-square&show=unique)](http://hits.dwyl.com/pulkit042/RISE_IOT_Projects)
 
 
