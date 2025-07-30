@@ -1,6 +1,6 @@
-# RISE Internship 2025 – IoT Projects Repository
+# IoT Projects Repository
 
-Welcome to my official project repository for the **RISE Internship 2025**. During this internship, I will be working on a total of **8 IoT-based projects**, each focusing on real-world applications using embedded systems, sensors, and wireless communication.
+Welcome to my official project repository. I have worked on a total of **IoT-based projects**, each focused on real-world applications using embedded systems, sensors, and wireless communication.
 
 This repository will serve as a central hub for all my project code, simulations, images, documentation, and learnings.
 
@@ -46,11 +46,6 @@ This repository is open-source under the **MIT License**. You’re welcome to ex
 
 ---
 
-## Acknowledgments
-
-Thanks to the mentors and coordinators of the **Tamizhan Skils** for this opportunity to work on real-world IoT challenges and build my engineering profile.
-
----
 
 
 
